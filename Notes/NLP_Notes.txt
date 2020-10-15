@@ -1,0 +1,169 @@
+
+
+
+{"url":"http:\/\/www.bostonglobe.com\/arts\/movies\/2014\/05\/22\/the-sandler-barrymore-balance-bit-off-blended\/eLSEDCLJykf3nYbu3vqQLI\/story.html",
+"archive":"http:\/\/web.archive.org\/web\/20140527024940id_\/http:\/\/www.bostonglobe.com:80\/arts\/movies\/2014\/05\/22\/the-sandler-barrymore-balance-bit-off-blended\/eLSEDCLJykf3nYbu3vqQLI\/story.html",
+"title":"The Sandler-Barrymore balance is a bit off in \u2018Blended\u2019",
+"date":"20140527024940",
+"text":"Adam Sandler and Drew Barrymore paired up pretty successfully in \u201cThe Wedding Singer\u201d (1998), and they repeated the trick with the amnesia-themed \u201c50 First Dates\u201d (2004). In both movies, Barrymore\u2019s cuteness was an effective counterbalance (or complement) to Sandler\u2019s hodgepodge of crass loopiness and underlying sincerity.\n\nThey\u2019re back together in \u201cBlended,\u201d as melancholy single parents whose families bond on an African vacation. Barrymore plays harried for a chunk of the story, reminding us that she\u2019s a mom in real life now, after all. But the movie could use a lot more of her familiar infectiousness. It\u2019s the glue that holds together Sandler\u2019s earnest moments and his penchant for scattershot tomfoolery.\n\nThe story opens with Sandler\u2019s Jim and Barrymore\u2019s Lauren on, yes, a first date \u2014 a disastrous rendezvous punctuated by peeved barbs and \u201cemergency\u201d calls from home giving them a quick out. It\u2019s soon clear why they\u2019re both off their dating game: Lauren has a couple of unruly boys and a smugly useless ex (Joel McHale), while widowed Jim tries hard with his three girls, but is better at teaching them basketball than at helping them navigate puberty.\n\nA contrived coincidence involving Lauren\u2019s brassy friend (Wendi McLendon-Covey) gives both Jim and Lauren the opportunity to jump on a family trip to Africa for cheap. The two are irked to meet again, but gradually, each fills a void in the other\u2019s brood. Lauren is great with lullabies, and rightly points out that Jim\u2019s oldest daughter (Bella Thorne) might prefer something girlier than the barbershop haircuts he gets her. (Uncomfortable tomboy jokes are only made odder by Thorne\u2019s resemblance to Keira Knightley.) Jim, meanwhile, knows just what Lauren\u2019s younger boy (Kyle Red Silverstein) needs: a father figure who actually cares. Enough, even, to join him in cartoonish craziness like ostrich riding.\n\n\u201cYou gotta show up for your kids,\u201d Jim tells Lauren in a likably sentimental bit of parental philosophizing. Of course, this being an Adam Sandler movie, he and director pal Frank Coraci (\u201cWedding Singer,\u201d \u201cClick\u201d) hedge their narrative bets by glopping on the anything-goes humor that fans expect.\n\nSome of it works. Sandler and Barrymore have some great interaction with Alyvia Alyn Lind, who plays Jim\u2019s youngest daughter with a very funny mouths-of-babes streak. But while a Greek chorus styled like Ladysmith Black Mambazo and led by preening Terry Crews is gleefully wacky, don\u2019t be surprised if the caricatured African setting draws some complaints. The location feels more like a random choice than a thematically relevant one, and at times it plays like an ad for South Africa\u2019s infamously segregated Sun City resort.\n\nFunny thing, though: The sunnier that Barrymore gets in her scenes with Sandler, the more the iffy elements and leaden bits seem to just melt away. Blend in more of that spirit, and their latest pairing might rate better.","summary":"Adam Sandler and Drew Barrymore are back together in \u201cBlended,\u201d this time as melancholy single parents whose families bond on an African vacation.",
+"compression":21.8148148148,
+"coverage":0.962962963,
+"density":8.1481481481,
+"compression_bin":"medium",
+"coverage_bin":"high",
+"density_bin":"mixed"}
+
+Title: Natural Language Processing Using AWS Recognize and Python's NLTK
+
+Technical Definition:
+'How do I explain to a software Developer' Definition: Using algorithms, rules, and data structures to take human-produced text inputs
+and create machine-produce text outputs. "The engineering side of computational-linguistics." 
+'How to I explain to my boss' Definition: The automated manipulation of human speech or text using software. 
+'How to I explain to my parents' Definition: When a computer alters what you input, like Autocorrect on your phone.
+
+History: 
+No definitive start date
+
+
+Pre 20th Century 
+Rudimentary computational machines. 
+Theoretical. Largely philosophical endeavors trying to model unified language rules. 
+
+
+20th Century
+Language Translation
+1950'a - Allan Turing publishes 'Computring Machinery and Intelligence'. Turing Test.
+1960's - Terry Winograd creates SHRDLU using LISP. 'Block World' made of Nouns (Block), Verbs (Move), and Adjectives (Red). Memory & Backpropogation 
+based inferences. 
+1970's - Graph Theory based approaches, Augmented Transition Networks. Recursive based decisions. 'Ontologies' are created defining domains. 
+1980's - Supervised Machine Learning. IBM currated Corpus's, Statistical Modelling instead of DT's
+1990's - Web applications, Neural Networks (LSTM), N-Grams'
+
+21st Century 
+ Unsupervised, AI, Human-in-the-loop
+ Auotmated Speech Recognition, Voice-to-Text
+	2006 - IBM's Watson
+	2011 - Siri
+	2014 - Alexa
+
+	
+
+
+Current State:
+Python 
+	NLTK: Represents everything as string, multiple language and algorithm implementations, large set of out-of-the-box text classification 
+	tools, resource-intensive.
+	SPacy: Represents everything as an object, fewer language and algorithm implementations, 'light weight' NLTK
+	PyTorch NLP: Rapid prototyping, AI/ML oriented. 
+	
+Node:
+	Retext: Part of JS's Unified Collective (Remark for Markdown, Rehype for HTML), task-oriented toolkit
+	Natural: Comparable to NLTK, supports multiple human-languges, also has large set of out-of-the-box text classification 
+	tools
+	Nlp.js: Interface into several other JS libraries, multi-language support, 
+	
+Java
+	OpenNLP: Apache liscensed (Nifi, Spark), multi-language support, 
+	StanfordNLP: Research & Experimentation, Commercially licensed, 
+	CogCompNLP: Good for distributed projects, 
+	
+Applications
+	Search & Translation: Google
+	Voice-to-Text: Amazon Echo, Alexa
+		- Arkansas
+	Digital Assistants: Grammar and Spellchecks, Auto-recommendations, Spam Filtering
+	Optical Character Recognition: Word Identification, Corpus creation, 
+	Customer Service: Chatbots, Customer Serice Workflows
+	Sentiment Analysis: Part-of-Speech Recognition
+	Finance: Algorithmic trading, News 
+	General Programming: Duplicate Detection, 
+
+	Limitations:
+	
+Mechanics:
+
+
+
+AWS Recognition
+
+Pythn NLTK Library
+
+Compression = the word ratio between the article and summary:
+	COMPRESSION(A, S) = |A|/|S| 
+	
+Coverage = measures the percentage of words in the summary that are part of an extractive fragment with the article.
+Density = 
+Compression_bin = the word ratio between the article and summary
+coverage_bin = 
+density_bin = extractive, abstractive, or mixed
+	extractive: frequently borrow words and phrases from their source text
+	abstractive: describe the contents of articles primarily using new language
+	mixed: 
+
+
+Tasks to be completed
+
+- Identify Named Entities: Who are the subjects in the article
+	1. Read Document
+		1a. Unsupervised Sentiment Analysis
+	2. Segment Sentences
+	3. Word Tokenizer
+
+		- Chunking: Work Level Tokenization, Part of Speech Tagging
+			- NP Chunks: smaller pieces than complete noun phrases
+				Chunk grammar: Rules that indicate how sentences should be chunked
+					Regex Chunker
+					N-gram (Uni, Bi) Chunker
+				Chink:  a sequence of tokens that is not included in a chunk
+				
+				Represened by a Tag or Tree
+		Chunkers can be constructed using rule-based systems, such as the RegexpParser class provided by NLTK; or using machine learning techniques, such as the ConsecutiveNPChunker presented in this chapter. In either case, part-of-speech tags are often a very important feature when searching for chunks.
+		Although chunkers are specialized to create relatively flat data structures, where no two chunks are allowed to overlap, they can be cascaded together to build nested structures.
+
+	Stopwords:
+		Stopwords considered as noise in the text. Text may contain stop words such as is, am, are, this, a, an, the, etc.
+
+
+	Stemming:
+		Stemming is a process of linguistic normalization, which reduces words to their word root word or chops off the derivational affixes.
+	Lemmatization
+	4. Add Part of Speech Tag:
+				The primary target of Part-of-Speech(POS) tagging is to identify the grammatical group of a given word. 
+				Tag Pattern: a sequence of part-of-speech tags (often Regex) delimited using angle brackets, e.g. <DT>?<JJ>*<NN>
+					- Unigram Tagger:  Uses a single word; find the chunk tag (I, O, or B) that is most likely for each part-of-speech tag
+					- Bigram Tagger : Uses previous tag as part of its context; 
+					- Classifier/Context Tagger: assigning IOB tags to the words in a sentence, and then converting those tags to chunks
+
+	5. Entity Detection
+		- Entity recognition is often performed using chunkers, which segment multi-token sequences, and label them with the appropriate entity type.
+		- Common entity types include ORGANIZATION, PERSON, LOCATION, DATE, TIME, MONEY, and GPE (geo-political entity
+		
+	6. Relation Detection
+		- Relation extraction can be performed using either rule-based systems which typically look for specific patterns in the text that connect entities and the intervening words; or using machine-learning systems which typically attempt to learn such patterns automatically from a training corpus.
+
+		- look for all triples of the form (X, α, Y), where X and Y are named entities of the required types, and α is the string of words that intervenes between X and Y 
+		-  regular expressions to pull out just those instances of α that express the relation that we are looking for.
+- Phrase Extraction: What are the bigrams in the article
+- Most common words: What are the unagrams in the article
+- Frequency Distribution: How often do the unagrams and digrams occur
+- Collocations: bigrams that occur more often than we would expect based on the frequency of the individual words
+- Word Disambugations: Inferring the context of a word
+
+	7. Sentitment Analysis
+			Lexicon-based: count number of positive and negative words in given text and the larger count will be the sentiment of text.
+
+				Machine learning based approach: Develop a classification model, which is trained using the pre-labeled dataset of positive, negative, and neutral.
+	8. Text Classification
+			
+			Bag-of-Words: BoW converts text into the matrix of occurrence of words within a document. This model concerns about whether given words occurred or not in the document.
+	9. Classification Models 
+
+Extractive Fragment Coverage: measures the percentage of words in the summary that are part of an extractive fragment with the article.
+	- For example, a summary with 10 words that borrows 7 words from its article text and includes 3 new words will have COVERAGE(A, S) = 0.7.
+
+Extractive Fragment Density: quantifies how well the word sequence of a summary can be described as a series of extractions.
+However, if arranged in a new order, the words of the summary could still be used to convey ideas not present in the article.
+	- an article with a 10-word summary made of two extractive fragments of lengths 3 and 4 would have COVERAGE(A, S) = 0.7 and DENSITY(A, S) = 2.5.
+
+Compression Ratio:  the word ratio between the article and summary
+	- Summarizing with higher compression is challenging as it requires capturing more precisely the critical aspects of the article text
